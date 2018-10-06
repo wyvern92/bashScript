@@ -12,7 +12,7 @@ echo --------- this program will start in 3 seconds ------------
 sleep 3s # Waits 3 seconds.
 
 function installNode(){
-	apt get update 
+	apt update 
 }
 
 echo Check node verion:
