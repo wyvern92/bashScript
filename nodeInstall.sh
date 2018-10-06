@@ -17,8 +17,8 @@ function installNode(){
 
 echo Check node verion:
 if bash -c 'node -v' 2>/dev/null;
-	then ;
-	else ;
+	then installNode ;
+	else echo 0;
 fi
 
 
