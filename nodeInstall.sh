@@ -1,6 +1,6 @@
 # author : Yiwen Wang
 # date : 10/6/2018
-# description: this is a bash script for installing docker
+# description: this is a bash script for installing node
 
 tput bold
 tput setaf 3
@@ -21,7 +21,7 @@ function installNode(){
 
 echo Check Node Verion:
 if bash -c 'node -v' 2>/dev/null;
-	then echo No Node Found... ;
+	then echo Node Found... ;
 	else installNode;
 fi
 
