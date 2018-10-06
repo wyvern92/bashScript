@@ -12,14 +12,15 @@ echo --------- this program will start in 3 seconds ------------
 sleep 3s # Waits 3 seconds.
 
 function installAngular(){
+
 	npm install -g @angular/cli;
 	ng -v;
 }
 
 echo Check Angular Verion:
 if bash -c 'ng -v' 2>/dev/null;
-	then echo No Angular Found... ;
-	else installAngular;
+	then echo Angular Found... ;
+	else echo No Angular Found... && installAngular;
 fi
 
 
