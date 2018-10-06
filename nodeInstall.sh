@@ -12,14 +12,20 @@ echo --------- this program will start in 3 seconds ------------
 sleep 3s # Waits 3 seconds.
 
 function installNode(){
-	apt update 
+	sudo apt update;
+	sudo apt install nodejs;
+	sudo apt install npm;
+	node -v;
+
 }
 
-echo Check node verion:
+echo Check Node Verion:
 if bash -c 'node -v' 2>/dev/null;
-	then installNode ;
-	else echo 0;
+	then echo No Node Found... ;
+	else installNode;
 fi
+
+
 
 
 
