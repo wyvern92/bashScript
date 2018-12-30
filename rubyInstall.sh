@@ -16,7 +16,7 @@ curl -sSL https://get.rvm.io | bash -s stable --rails
 # our script is default to be run on ubuntu
 # we run ruby-2.4.1 and rails-4.2.5
 rvm inst 2.4.1
-rvm use ruby-2.4.1
+rvm --default use 2.4.1
 
 sudo apt-get install libgmp3-dev libprotobuf-dev
 sudo apt-get install libmysqlclient-dev
