@@ -22,6 +22,10 @@ sudo apt-get install libgmp3-dev libprotobuf-dev
 sudo apt-get install libmysqlclient-dev
 sudo apt-get install libmagickwand-dev
 
+# install gcc-5 and set it to be the first priority
+sudo apt-get install gcc-5 g++-5 -y
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-5 80 --slave /usr/bin/g++ g++ /usr/bin/g++-5;
+
 
 
 
