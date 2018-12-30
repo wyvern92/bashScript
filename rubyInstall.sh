@@ -19,6 +19,7 @@ rvm inst 2.4.1
 rvm use ruby-2.4.1
 
 sudo apt-get install libgmp3-dev libprotobuf-dev
+sudo apt-get install libmysqlclient-dev
 
 
 
