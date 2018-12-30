@@ -20,6 +20,8 @@ rvm use ruby-2.4.1
 
 sudo apt-get install libgmp3-dev libprotobuf-dev
 sudo apt-get install libmysqlclient-dev
+sudo apt-get install libmagickwand-dev
+
 
 
 
