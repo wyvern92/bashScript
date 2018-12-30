@@ -18,5 +18,7 @@ curl -sSL https://get.rvm.io | bash -s stable --rails
 rvm inst 2.4.1
 rvm use ruby-2.4.1
 
+sudo apt-get install libgmp3-dev libprotobuf-dev
+
 
 
